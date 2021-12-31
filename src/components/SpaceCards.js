@@ -22,7 +22,9 @@ export default function SpaceCards() {
   }, [nasaData]);
 
   const onGetNasaDataSuccess = (response) => {
-    setNasaData(response.data);
+    //reverse data array to have most recent date show first
+    let reverseDataArray = response.data.reverse();
+    setNasaData(reverseDataArray);
     // console.log(response.data);
   };
   const onGetNasaDataError = (response) => {

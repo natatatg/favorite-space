@@ -35,15 +35,29 @@ export default function FavText() {
               textTransform: "uppercase",
               marginBottom: 1.6,
               letterSpacing: ".1rem",
-              lineHeight: 1.1
+              lineHeight: 1.1,
             }}
           >
             space is amazing.
           </Typography>
           <Typography
             sx={{
+              fontSize: "1.4em",
               lineHeight: 1.3,
-              color: '#303030'
+              color: "#303030",
+            }}
+          >
+            (It's my favorite thing.)
+          </Typography>
+          <Typography
+            sx={{
+              lineHeight: 1.3,
+              marginTop: 1.6,
+              color: "#303030",
+              display: {
+                xs: "none",
+                sm: "block",
+              },
             }}
           >
             When I was a kid, I fell in love with space and wanted to be an

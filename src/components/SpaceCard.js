@@ -89,7 +89,7 @@ export default function SpaceCard(props) {
                 sm: 500,
                 md: 550,
                 lg: 550,
-                xl: 900 },
+                xl: 750 },
             maxWidth: {
                 xs: 400,
                 sm: 600,
